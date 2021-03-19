@@ -9,6 +9,9 @@
             <action android:name="android.media.action.IMAGE_CAPTURE" />
         </intent>
     </queries>
+    <application>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="derpsicle"/>
+    </application>
     <!-- <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.FLASHLIGHT"/> -->
     <!-- <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/> -->
